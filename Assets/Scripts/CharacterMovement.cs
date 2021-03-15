@@ -10,6 +10,7 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 1;
     public float gravity = -9.81f;
     public float bufferHeight = 0.2f;
+    public LayerMask groundLayer;
 
     public XRNode inputSource;
     private float fallingSpeed;
